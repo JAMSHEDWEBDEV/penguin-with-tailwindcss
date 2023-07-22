@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>penguin-with-tailwindcss</title>
+    <!-- tailwind link start  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind link end  -->
+    <!-- google font link start  -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- google font link end  -->
+    <style>
+        .font_bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .font_roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-[#FFFBF0;] pb-20">
+        <!-- navigation part start  -->
+        <nav class="mx-9 pt-5 md:pt-5 lg:pt-5 md:mx-36 flex flex-col md:flex-col lg:flex-row justify-between items-center">
+            <div>
+                <img src="./icons/logo.png" class=" w-full md:w-full lg:w-1/2">
+            </div>
+            <div>
+                <ul class="flex flex-col md:flex-row p-1 md:p-1">
+                    <li class="p-3 md:p-5 text-xl font_roboto font-semibold">Home</li>
+                    <li class="p-3 md:p-5 text-xl font_roboto font-semibold">Product</li>
+                    <li class="p-3 md:p-5 text-xl font_roboto font-semibold">About Us</li>
+                    <li class="p-3 md:p-5 text-xl font_roboto font-semibold">Contact Us</li>
+                </ul>
+            </div>
+        </nav>
+        <!-- navigation part end  -->
+        
+        <!-- banner part start  -->
+        <section class=" mx-9 md:mx-36 flex flex-col md:flex-col lg:flex-row justify-between items-center">
+            <div class="my-6 md:my-5">
+                <h1 class="md:text-6xl text-3xl font-medium font_bebas"><span class="text-[#FABE4C]">Be the Penguins</span><br>of Winter</h1>
+                <p class="text-[#3E3E3E] text-xl my-3 font_roboto">Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.</p>
+                <button class="text-xl px-10 py-1 text-white rounded-xl font_roboto bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center">
+                    <img src="./icons/shopping-cart 1.png" alt="">
+                    BUY NOW</button>
+            </div>
+            <div>
+                <img src="./images/model.png" alt="">
+            </div>
+        </section>
+        <!-- banner part end  -->
+    </header>
+
+    <main class="mx-9 md:mx-36">
+
+        <section>
+            <h1 class=" text-[#363958] text-xl md:text-5xl font_bebas mt-12">Woman Jacket</h1>
+            <div class="flex flex-col  md:flex-col lg:flex-row gap-16 mb-28">
+                <div class="mt-6 shadow-xl p-5">
+                    <img class="bg-[#F1F1F1] p-20 rounded-xl" src="./images/jacket-1.png" alt="">
+                    <h1 class="text-2xl text-[#363958] font_roboto font-bold my-3">Yellow Coat Jacket </h1>
+                    <p class="text-xl text-[#3E3E3E] font_roboto mb-2">Lorem Ipsum is simply dummy text of the<br>
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between items-center">
+                        <h1 class="text-4xl text-[#FABE4C] font-extrabold font_roboto">$234</h1>
+                        <button class="text-xl px-14 py-2 text-white rounded-xl font_roboto bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center">
+                            <img src="./icons/shopping-cart 1.png" alt="">
+                            BUY NOW</button>
+                    </div>
+                </div>
+                <div class="mt-6 shadow-xl p-5">
+                    <img class="bg-[#F1F1F1] p-20 rounded-xl" src="./images/jacket-2.png" alt="">
+                    <h1 class="text-2xl text-[#363958] font_roboto font-bold my-3">Ladies Jacket  </h1>
+                    <p class="text-xl text-[#3E3E3E] font_roboto mb-2">Lorem Ipsum is simply dummy text of the<br>
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between items-center">
+                        <h1 class="text-4xl text-[#FABE4C] font-extrabold font_roboto">$234</h1>
+                        <button class="text-xl px-14 py-2 text-white rounded-xl font_roboto bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center">
+                            <img src="./icons/shopping-cart 1.png" alt="">
+                            BUY NOW</button>
+                    </div>
+                </div>
+                <div class="mt-6 shadow-xl p-5">
+                    <img class="bg-[#F1F1F1] p-20 rounded-xl" src="./images/jacket-3.png" alt="">
+                    <h1 class="text-2xl text-[#363958] font_roboto font-bold my-3">Woman Leather Jacket  </h1>
+                    <p class="text-xl text-[#3E3E3E] font_roboto mb-2">Lorem Ipsum is simply dummy text of the<br>
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between items-center">
+                        <h1 class="text-4xl text-[#FABE4C] font-extrabold font_roboto">$234</h1>
+                        <button class="text-xl px-14 py-2 text-white rounded-xl font_roboto bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center">
+                            <img src="./icons/shopping-cart 1.png" alt="">
+                            BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1 class=" text-[#363958] text-xl md:text-5xl font_bebas mt-12">Man Jacket</h1>
+            <div class="flex flex-col md:flex-col lg:flex-row gap-16 mb-28">
+                <div class="mt-6 shadow-xl p-5">
+                    <img class="bg-[#F1F1F1] p-20 rounded-xl" src="./images/jacket-4.png" alt="">
+                    <h1 class="text-2xl text-[#363958] font_roboto font-bold my-3">Snowboard Jacket Mens </h1>
+                    <p class="text-xl text-[#3E3E3E] font_roboto mb-2">Lorem Ipsum is simply dummy text of the<br>
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between items-center">
+                        <h1 class="text-4xl text-[#FABE4C] font-extrabold font_roboto">$234</h1>
+                        <button class="text-xl px-14 py-2 text-white rounded-xl font_roboto bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center">
+                            <img src="./icons/shopping-cart 1.png" alt="">
+                            BUY NOW</button>
+                    </div>
+                </div>
+                <div class="mt-6 shadow-xl p-5">
+                    <img class="bg-[#F1F1F1] p-20 rounded-xl" src="./images/jacket-5.png" alt="">
+                    <h1 class="text-2xl text-[#363958] font_roboto font-bold my-3">Man Leather Jackets </h1>
+                    <p class="text-xl text-[#3E3E3E] font_roboto mb-2">Lorem Ipsum is simply dummy text of the<br>
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between items-center">
+                        <h1 class="text-4xl text-[#FABE4C] font-extrabold font_roboto">$234</h1>
+                        <button class="text-xl px-14 py-2 text-white rounded-xl font_roboto bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center">
+                            <img src="./icons/shopping-cart 1.png" alt="">
+                            BUY NOW</button>
+                    </div>
+                </div>
+                <div class="mt-6 shadow-xl p-5">
+                    <img class="bg-[#F1F1F1] p-20 rounded-xl" src="./images/jacket-6.png" alt="">
+                    <h1 class="text-2xl text-[#363958] font_roboto font-bold my-3">Man Casual Jackets </h1>
+                    <p class="text-xl text-[#3E3E3E] font_roboto mb-2">Lorem Ipsum is simply dummy text of the<br>
+                        printing and typesetting industry.</p>
+                    <div class="flex justify-between items-center">
+                        <h1 class="text-4xl text-[#FABE4C] font-extrabold font_roboto">$234</h1>
+                        <button class="text-xl px-14 py-2 text-white rounded-xl font_roboto bg-gradient-to-r from-[#A4BC46] to-[#85A019] flex items-center">
+                            <img src="./icons/shopping-cart 1.png" alt="">
+                            BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
